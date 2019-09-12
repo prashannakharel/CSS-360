@@ -1,0 +1,3 @@
+#!/bin/bash
+touch "fourth.txt"
+chmod 744 "fourth.txt"

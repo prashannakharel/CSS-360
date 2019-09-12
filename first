@@ -1,0 +1,7 @@
+#!/bin/bash
+max=$1 #assign maximum value to the user input
+for fid in $(seq 0 $max);
+do
+touch "file_""$fid"".txt";
+done
+
